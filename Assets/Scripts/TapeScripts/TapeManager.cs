@@ -9,6 +9,8 @@ public class TapeManager : MonoBehaviour
     public static TapeManager Instance { get; private set; }
     public TapeJSONParser tapeJSONParser;
     public GameObject[] tapeButtons;
+    public GameObject movieSlotPrefab;
+    public Transform tapeContent;
 
     public Image[] tapeImages; // Array to hold the images for each tape
     public int currentTapeIndex = 0; // Reference to the tape thats info is currently being displayed
@@ -20,6 +22,8 @@ public class TapeManager : MonoBehaviour
     public Image movieImage;
 
     public Tape selectedTape; // Tape selected to recommend
+
+    public GameObject moviePanel;
 
 
     void Awake()
@@ -42,10 +46,25 @@ public class TapeManager : MonoBehaviour
             return;
         }
 
-        for (int i = 0; i < tapeButtons.Length; i++)
+        /*for (int i = 0; i < tapeButtons.Length; i++)
         {
             TextMeshProUGUI titleText = tapeButtons[i].GetComponentInChildren<TextMeshProUGUI>();
             titleText.text = tapeJSONParser.tapeList[i].title;
+        }*/
+
+        // Delete existing buttons
+        foreach (Transform child in tapeContent)
+        {
+            Destroy(child.gameObject);
+        }
+
+        for (int i = 0; i < tapeJSONParser.tapeList.Count; i++)
+        {
+            GameObject newSlotObject = Instantiate(movieSlotPrefab, tapeContent);
+
+            TapeSlot newSlot = newSlotObject.GetComponent<TapeSlot>();
+
+            newSlot.Setup(i, tapeJSONParser.tapeList[i]);
         }
 
     }
@@ -66,5 +85,6 @@ public class TapeManager : MonoBehaviour
         movieDescriptionText.text = selectedTape.description;
         //movieImage.sprite = tapeImages[index].sprite;
 
+        moviePanel.SetActive(true);
     }
 }
