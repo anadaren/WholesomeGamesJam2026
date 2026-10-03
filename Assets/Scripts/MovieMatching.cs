@@ -16,7 +16,7 @@ public class MovieMatching : MonoBehaviour
 
     public void CheckMovieMaching()
     {
-        if (HorseManager.horseJSONParser.horseList[HorseManager.currentHorseIndex].movie == TapeManager.tapeJSONParser.tapeList[TapeManager.currentTapeIndex].title)
+        if (HorseManager.horseList[HorseManager.currentHorseIndex].movie == TapeManager.selectedTape.title)
         {
             Debug.Log("Correct Movie!");
             correctMatches++;
@@ -34,6 +34,11 @@ public class MovieMatching : MonoBehaviour
         }
         else
         {
+            HorseManager.currentHorseIndex++;
+            /*if (currentHorseIndex >= horseList.Count) // If we want to see each of the horses more than once in a day, uncomment this block
+            {
+                currentHorseIndex = 0; // Loop back to the first horse
+            }*/
             HorseManager.NewHorse();
         }
     }

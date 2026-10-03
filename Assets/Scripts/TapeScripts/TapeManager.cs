@@ -19,6 +19,9 @@ public class TapeManager : MonoBehaviour
     public TextMeshProUGUI movieDescriptionText;
     public Image movieImage;
 
+    public Tape selectedTape; // Tape selected to recommend
+
+
     void Awake()
     {
         if (Instance == null)
@@ -31,7 +34,7 @@ public class TapeManager : MonoBehaviour
         }
     }
 
-    public void UpdateTapeList()
+    public void UpdateTapeList() // Gets called by VHS Tapes button on screen
     {
         if (tapeJSONParser == null)
         {
@@ -55,12 +58,14 @@ public class TapeManager : MonoBehaviour
             return;
         }
 
-        Tape selectedTape = tapeJSONParser.tapeList[index];
+        selectedTape = tapeJSONParser.tapeList[index];
         currentTapeIndex = index;
 
         movieTitleText.text = selectedTape.title;
         movieGenreText.text = "Genre: " + selectedTape.genre;
         movieDescriptionText.text = selectedTape.description;
         //movieImage.sprite = tapeImages[index].sprite;
+
+        Debug.Log(selectedTape.title);
     }
 }

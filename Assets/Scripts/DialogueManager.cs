@@ -12,6 +12,9 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public TextMeshProUGUI nameText;
 
+    public bool dialogueIsPlaying;
+    public int currSentence = 0;
+
     [SerializeField] private float textSpeed = 50f;
 
     [SerializeField] private Sprite[] characterImages;
@@ -37,20 +40,32 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void BeginConversation()
+    public void BeginDialogue()
     {
+        dialogueIsPlaying = true;
         currentHorse = HorseManager.Instance.currentHorse;
         dialoguePanel.SetActive(true);
         nameText.text = currentHorse.name;
 
-        RunText(currentHorse.dialogue[0]);
+        RunText(currentHorse.dialogue[currSentence]);
+        currSentence++;
 
     }
 
-
-    public void EndConversation()
+    public void ContinueDialogue()
     {
+        RunText(currentHorse.dialogue[currSentence]);
+        currSentence++;
+    }
 
+
+    public void EndDialogue()
+    {
+        dialogueIsPlaying = false;
+        dialoguePanel.SetActive(false);
+        nameText.text = "";
+        dialogueText.text = "";
+        currSentence = 0;
     }
 
 
@@ -65,5 +80,32 @@ public class DialogueManager : MonoBehaviour
             textBox = dialogueText;
         }
         typewriterEffect.RunText(textToType, textBox, textSpeed);
+    }
+
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space)) { HandleAdvance(); }
+    }
+
+    private void HandleAdvance()
+    {
+        if (!dialogueIsPlaying) return;
+
+        if (typewriterEffect.IsTyping)  // If text is still being typed out, press space to skip to the end of the text
+        {
+            typewriterEffect.SkipToEnd();
+            return;
+        }
+
+        if (currSentence < currentHorse.dialogue.Count)
+        {
+            ContinueDialogue();
+        }
+        else if (currSentence >= currentHorse.dialogue.Count)
+        {
+            EndDialogue();
+        }
+        //Debug.Log("Current sentence: " + currSentence + " / " + currentConvo.Count);
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,10 +12,12 @@ public class HorseManager : MonoBehaviour
 
     public Sprite[] horseImages; // Array to hold the sprites for each horse
 
-    public List<Horse> horseList; // List to hold the horses
 
-    public Horse currentHorse;
-    public int currentHorseIndex;
+    public List<Horse> horseList; // List to hold the horses; will be shuffled from their original indexes
+
+    public Horse currentHorse; // Current horse that's on screen
+    public int currentHorseIndex; // Where in the list of horses we are on the current playthrough
+    public Image currentHorseImage; // Image component of currently displayed horse
 
 
     public TextMeshProUGUI horseNameText; // TEMPORARY; DELETE LATER
@@ -34,6 +37,7 @@ public class HorseManager : MonoBehaviour
 
     void Start()
     {
+        currentHorseImage.gameObject.SetActive(false);
         RandomizeHorses();
     }
 
@@ -53,6 +57,7 @@ public class HorseManager : MonoBehaviour
         }
 
         currentHorse = horseList[0];
+        currentHorseImage.sprite = horseImages[currentHorse.index];
 
         // Testing
         horseNameText.text = "TEST: " + horseList[0].name; // Test text delete later
@@ -62,16 +67,23 @@ public class HorseManager : MonoBehaviour
 
     public void NewHorse() // Goes to next horse
     {
-        currentHorseIndex++;
-        /*if (currentHorseIndex >= horseList.Count) // If we want to see each of the horses more than once in a day, uncomment this block
-        {
-            currentHorseIndex = 0; // Loop back to the first horse
-        }*/
+        StartCoroutine(NewHorseCoroutine());
+    }
+
+    private IEnumerator NewHorseCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
+        // TODO: old horse fade out
+        currentHorseImage.gameObject.SetActive(false);
+        yield return new WaitForSeconds(2f);
+        currentHorseImage.gameObject.SetActive(true);
+        // TODO: new horse fade in
 
         currentHorse = horseList[currentHorseIndex];
         horseNameText.text = "TEST: " + currentHorse.name; // Update test text; delete later
 
-        DialogueManager.Instance.BeginConversation();
+        yield return new WaitForSeconds(1f);
+        DialogueManager.Instance.BeginDialogue();
     }
 
 }
