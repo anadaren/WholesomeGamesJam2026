@@ -9,6 +9,7 @@ public class HorseManager : MonoBehaviour
 {
     public static HorseManager Instance { get; private set; }
     public HorseJSONParser horseJSONParser;
+    public MenuAnimations menuAnimations;
 
     public Sprite[] horseImages; // Array to hold the sprites for each horse
 
@@ -73,11 +74,9 @@ public class HorseManager : MonoBehaviour
     private IEnumerator NewHorseCoroutine()
     {
         yield return new WaitForSeconds(1f);
-        // TODO: old horse fade out
-        currentHorseImage.gameObject.SetActive(false);
+        menuAnimations.HorseFadeOut(); // Old horse fades out
         yield return new WaitForSeconds(2f);
-        currentHorseImage.gameObject.SetActive(true);
-        // TODO: new horse fade in
+        currentHorseImage.gameObject.SetActive(true); // New horse fades in
 
         currentHorse = horseList[currentHorseIndex];
         horseNameText.text = "TEST: " + currentHorse.name; // Update test text; delete later
