@@ -66,6 +66,5 @@ public class TapeManager : MonoBehaviour
         movieDescriptionText.text = selectedTape.description;
         //movieImage.sprite = tapeImages[index].sprite;
 
-        Debug.Log(selectedTape.title);
     }
 }

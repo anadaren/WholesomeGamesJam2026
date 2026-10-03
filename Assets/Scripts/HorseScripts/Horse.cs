@@ -9,4 +9,5 @@ public class Horse
     public string type;
     public string movie;
     public List<string> dialogue;
+    public List<string> checkout;
 }

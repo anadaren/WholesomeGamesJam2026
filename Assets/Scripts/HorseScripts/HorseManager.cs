@@ -61,7 +61,7 @@ public class HorseManager : MonoBehaviour
 
         // Testing
         horseNameText.text = "TEST: " + horseList[0].name; // Test text delete later
-        Debug.Log("Randomized horses: " + string.Join(", ", horseList.ConvertAll(h => h.name).ToArray()));
+        //Debug.Log("Randomized horses: " + string.Join(", ", horseList.ConvertAll(h => h.name).ToArray()));
     }
 
 

@@ -15,6 +15,8 @@ public class DialogueManager : MonoBehaviour
     public bool dialogueIsPlaying;
     public int currSentence = 0;
 
+    public bool duringCheckout = false; // Whether the dialogue being displayed currently is part of the intro or the checkout
+
     [SerializeField] private float textSpeed = 50f;
 
     [SerializeField] private Sprite[] characterImages;
@@ -43,6 +45,7 @@ public class DialogueManager : MonoBehaviour
     public void BeginDialogue()
     {
         dialogueIsPlaying = true;
+        duringCheckout = false;
         currentHorse = HorseManager.Instance.currentHorse;
         dialoguePanel.SetActive(true);
         nameText.text = currentHorse.name;
@@ -66,8 +69,30 @@ public class DialogueManager : MonoBehaviour
         nameText.text = "";
         dialogueText.text = "";
         currSentence = 0;
+
+        if (duringCheckout)
+        {
+            MovieMatching.Instance.EndInteraction();
+        }
     }
 
+    public void BeginCheckoutDialogue() // Second phase of dialogue, after movie recommendation
+    {
+        dialogueIsPlaying = true;
+        duringCheckout = true;
+        currentHorse = HorseManager.Instance.currentHorse;
+        dialoguePanel.SetActive(true);
+        nameText.text = currentHorse.name;
+
+        RunText(currentHorse.checkout[currSentence]);
+        currSentence++;
+    }
+
+    public void ContinueCheckoutDialogue()
+    {
+        RunText(currentHorse.checkout[currSentence]);
+        currSentence++;
+    }
 
 
 
@@ -98,14 +123,29 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (currSentence < currentHorse.dialogue.Count)
+        if (!duringCheckout)
         {
-            ContinueDialogue();
+            if (currSentence < currentHorse.dialogue.Count) // Intro Dialogue
+            {
+                ContinueDialogue();
+            }
+            else if (currSentence >= currentHorse.dialogue.Count)
+            {
+                EndDialogue();
+            }
         }
-        else if (currSentence >= currentHorse.dialogue.Count)
+        else
         {
-            EndDialogue();
+            if (currSentence < currentHorse.checkout.Count) // Checkout Dialogue
+            {
+                ContinueCheckoutDialogue();
+            }
+            else if (currSentence >= currentHorse.checkout.Count)
+            {
+                EndDialogue();
+            }
         }
+
         //Debug.Log("Current sentence: " + currSentence + " / " + currentConvo.Count);
     }
 }

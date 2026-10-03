@@ -9,6 +9,10 @@
                 "I'm a race horse",
                 "I'm a race horse",
                 "I'm still a race horse"
+            ],
+            "checkout": [
+                "Thank you.",
+                "Goodbye"
             ]
         },
         {
@@ -20,6 +24,10 @@
                 "I'm a Unicorn",
                 "I'm a Unicorn",
                 "I'm still a Unicorn"
+            ],
+            "checkout": [
+                "Thank you.",
+                "Goodbye"
             ]
         },
         {
@@ -31,6 +39,10 @@
                 "I'm a police horse",
                 "I'm a police horse",
                 "I'm still a police horse"
+            ],
+            "checkout": [
+                "Thank you.",
+                "Goodbye"
             ]
         },
         {
@@ -42,6 +54,10 @@
                 "I'm a zebra horse",
                 "I'm a zebra horse",
                 "I'm still a zebra horse"
+            ],
+            "checkout": [
+                "Thank you.",
+                "Goodbye"
             ]
         },
         {
@@ -53,6 +69,10 @@
                 "I'm a British horse",
                 "I'm a British horse",
                 "I'm still a British horse"
+            ],
+            "checkout": [
+                "Thank you.",
+                "Goodbye"
             ]
         },
         {
@@ -64,6 +84,10 @@
                 "I'm a cowboy horse",
                 "I'm a cowboy horse",
                 "I'm still a cowboy horse"
+            ],
+            "checkout": [
+                "Thank you.",
+                "Goodbye"
             ]
         },
         {
@@ -75,6 +99,10 @@
                 "I'm a knight",
                 "I'm a knight",
                 "I'm still a knight"
+            ],
+            "checkout": [
+                "Thank you.",
+                "Goodbye"
             ]
         },
         {
@@ -86,6 +114,10 @@
                 "I'm a pony",
                 "I'm a pony",
                 "I'm still a pony"
+            ],
+            "checkout": [
+                "Thank you.",
+                "Goodbye"
             ]
         }
     ]
