@@ -1,0 +1,37 @@
+{
+    "horses": [
+        {
+            "index": 0,
+            "name": "Race Horse name",
+            "type": "Race Horse",
+            "movie": "Action Movie",
+            "dialogue": [
+                "I'm a race horse",
+                "I'm a race horse",
+                "I'm still a race horse"
+            ]
+        },
+        {
+            "index": 1,
+            "name": "Unicorn name",
+            "type": "Unicorn",
+            "movie": "Fantasy Movie",
+            "dialogue": [
+                "I'm a Unicorn",
+                "I'm a Unicorn",
+                "I'm still a Unicorn"
+            ]
+        },
+        {
+            "index": 2,
+            "name": "Police Horse name",
+            "type": "Police Horse",
+            "movie": "Crime Movie",
+            "dialogue": [
+                "I'm a police horse",
+                "I'm a police horse",
+                "I'm still a police horse"
+            ]
+        }
+    ]
+}

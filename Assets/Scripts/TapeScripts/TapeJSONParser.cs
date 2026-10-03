@@ -31,7 +31,7 @@ public class TapeJSONParser : MonoBehaviour
 
         foreach (Tape tape in tapesInJson.tapes)
         {
-            //Debug.Log("Tape title: " + tape.title + " Tape genre: " + tape.genre + " Tape description: " + tape.description);
+            //Debug.Log("Tape index: " + tape.index + " Tape title: " + tape.title + " Tape genre: " + tape.genre + " Tape description: " + tape.description);
             tapeList.Add(tape);
         }
     }

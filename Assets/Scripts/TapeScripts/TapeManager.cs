@@ -8,7 +8,7 @@ public class TapeManager : MonoBehaviour
     public GameObject[] tapeButtons;
 
     public Image[] tapeImages; // Array to hold the images for each tape
-    public int currentTapeIndex; // Reference to the tape thats info is currently being displayed
+    public int currentTapeIndex = 0; // Reference to the tape thats info is currently being displayed
 
     [Header("Movie Elements")]
     public TextMeshProUGUI movieTitleText;
