@@ -1,9 +1,12 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
 public class TapeManager : MonoBehaviour
 {
+    public static TapeManager Instance { get; private set; }
     public TapeJSONParser tapeJSONParser;
     public GameObject[] tapeButtons;
 
@@ -15,6 +18,18 @@ public class TapeManager : MonoBehaviour
     public TextMeshProUGUI movieGenreText;
     public TextMeshProUGUI movieDescriptionText;
     public Image movieImage;
+
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else if (Instance != this)
+        {
+            Destroy(this);
+        }
+    }
 
     public void UpdateTapeList()
     {

@@ -26,11 +26,66 @@
             "index": 2,
             "name": "Police Horse name",
             "type": "Police Horse",
-            "movie": "Crime Movie",
+            "movie": "Thriller Movie",
             "dialogue": [
                 "I'm a police horse",
                 "I'm a police horse",
                 "I'm still a police horse"
+            ]
+        },
+        {
+            "index": 3,
+            "name": "Zebra Horse name",
+            "type": "Zebra Horse",
+            "movie": "Detective Movie",
+            "dialogue": [
+                "I'm a zebra horse",
+                "I'm a zebra horse",
+                "I'm still a zebra horse"
+            ]
+        },
+        {
+            "index": 4,
+            "name": "British Horse name",
+            "type": "British Horse",
+            "movie": "British Movie",
+            "dialogue": [
+                "I'm a British horse",
+                "I'm a British horse",
+                "I'm still a British horse"
+            ]
+        },
+        {
+            "index": 5,
+            "name": "Cowboy Horse name",
+            "type": "Cowboy Horse",
+            "movie": "Western Movie",
+            "dialogue": [
+                "I'm a cowboy horse",
+                "I'm a cowboy horse",
+                "I'm still a cowboy horse"
+            ]
+        },
+        {
+            "index": 6,
+            "name": "Knight name",
+            "type": "Knight",
+            "movie": "War Movie",
+            "dialogue": [
+                "I'm a knight",
+                "I'm a knight",
+                "I'm still a knight"
+            ]
+        },
+        {
+            "index": 7,
+            "name": "Pony name",
+            "type": "Pony",
+            "movie": "Comedy Movie",
+            "dialogue": [
+                "I'm a pony",
+                "I'm a pony",
+                "I'm still a pony"
             ]
         }
     ]
