@@ -1,0 +1,53 @@
+{
+    "tapes":
+    [
+        {
+            "index": 0,
+            "title": "Action Movie",
+            "genre": "Action",
+            "description": "Movie Description."
+        },
+        {
+            "index": 1,
+            "title": "Comedy Movie",
+            "genre": "Comedy",
+            "description": "Movie Description."
+        },
+        {
+            "index": 2,
+            "title": "Horror Movie",
+            "genre": "Horror",
+            "description": "Movie Description."
+        },
+        {
+            "index": 3,
+            "title": "Romance Movie",
+            "genre": "Romance",
+            "description": "Movie Description."
+        },
+        {
+            "index": 4,
+            "title": "Sci-Fi Movie",
+            "genre": "Sci-Fi",
+            "description": "Movie Description."
+        },
+        {
+            "index": 5,
+            "title": "Documentary Tape",
+            "genre": "Documentary",
+            "description": "Movie Description."
+        },
+        {
+            "index": 6,
+            "title": "Thriller Movie",
+            "genre": "Thriller",
+            "description": "Movie Description."
+        },
+        {
+            "index": 7,
+            "title": "Animation Tape",
+            "genre": "Animation",
+            "description": "Movie Description."
+        }
+    ]
+}
