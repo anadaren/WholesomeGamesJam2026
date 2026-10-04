@@ -11,7 +11,7 @@
             "index": 1,
             "title": "The Lord of the Reins",
             "genre": "Fantasy",
-            "description": "One rein to rule them all. Follow this brave herd of horses as they traverse the far-away world of Middle-Pasture, to destroy the One Rein."
+            "description": "One rein to rule them all. Follow this brave herd of horses as they traverse the far-away fantasy world of Middle-Pasture, to destroy the One Rein."
         },
         {
             "index": 2,
@@ -35,19 +35,19 @@
             "index": 5,
             "title": "Colt",
             "genre": "Western",
-            "description": "Wild like the West, Colt is a true gunslinger, outlaw and lady lover. Need I say more? Based on a true story."
+            "description": "Wild like the West, Colt is a true gunslinger, outlaw and lady lover. Need I say more? He's seen it all, but it's time for one last adventure. Based on a true story."
         },
         {
             "index": 6,
-            "title": "Saving private Stallion",
+            "title": "A Horse Odyssey",
             "genre": "War",
-            "description": "The year is 19XX and there's a war going on. This movie is about that. And there's a soldier in that war."
+            "description": "After winning the Trojan War by hiding inside a giant wooden human, Odysseus tries to find his way back home."
         },
         {
             "index": 7,
             "title": "Mr. Bazonko Takes Manhattan",
             "genre": "Comedy",
-            "description": "Wacky antics with Mr. Bazonko and the crawdad bunch. What crazy antics will he get up to next? Who knows."
+            "description": "Wacky antics with Mr. Bazonko and the Crawdad bunch. What crazy antics will he get up to next? Who knows."
         },
         {
             "index": 8,
@@ -83,19 +83,67 @@
             "index": 13,
             "title": "The Good, the Bad and the Mule",
             "genre": "Western",
-            "description": "Classic spaghetti western with a twist. Bounty hunters, shooting, suspense and, of course, gold - it has it all!"
+            "description": "Classic spaghetti western with a twist. Bounty hunters, shooting, suspense and, of course, gold - it has it all! Starring Colt Eastwood."
         },
         {
             "index": 14,
             "title": "Donkey King",
             "genre": "War",
-            "description": "The true donkey king must be out there… He is the last hope of restoring the kingdom to its former glory."
+            "description": "The true donkey king must be out there... He is the last hope of restoring the kingdom to its former glory."
         },
         {
             "index": 15,
             "title": "Neigh-borhood Watch",
             "genre": "Comedy",
-            "description": "A group of kids embark on an adventure to protect their neigh-borhood. Horsing around the town has never been more fun!."
+            "description": "A group of kids embark on an adventure to protect their neigh-borhood. Horsing around the town has never been more fun!"
+        },
+        {
+            "index": 16,
+            "title": "The Adventures of Horse-Man",
+            "genre": "Action",
+            "description": "Years ago, Horse-Man was bitten by a radioactive human. After the tragic death of his uncle Bale, he relizes that with great power comes great responsibility. Now, he fights crime as The Amazing Horse-Man!"
+        },
+                {
+            "index": 17,
+            "title": "The Wizard of the Pasture",
+            "genre": "Fantasy",
+            "description": "Long ago, there was a myth that way out in the far pasture there was a wizard that grants any wish. Timothy Jimothy, a young boy who really wants a train set, sets out to look for him."
+        },
+        {
+            "index": 18,
+            "title": "Reservior Horses",
+            "genre": "Thriller",
+            "description": "A heist gone wrong! Is one of them an undercover cop? Not sure. Neither are they. That's the problem."
+        },
+        {
+            "index": 19,
+            "title": "Forks Out",
+            "genre": "Mystery",
+            "description": "When a famous crime novelest Harlan Thoroughbreds turns up dead in his home, Detective Benoit Buck is enlisted to solve the case."
+        },
+        {
+            "index": 20,
+            "title": "GroundHorse Day",
+            "genre": "Romance",
+            "description": "A weatherman is forced to relive the same day again and again. What will he learn about love in the process?"
+        },
+        {
+            "index": 21,
+            "title": "One Last Ride",
+            "genre": "Western",
+            "description": "An outlaw, terrorizing the west. An Arizona ranger, arriving to town to catch him. This town ain't big enough for the two of them."
+        },
+                {
+            "index": 22,
+            "title": "Saving Private Stallion",
+            "genre": "War",
+            "description": "The year is 19XX and there's a war going on. This movie is about that. And there's a soldier in that war."
+        },
+        {
+            "index": 23,
+            "title": "The Barnyard Bunch",
+            "genre": "Comedy",
+            "description": "A group of barnyard animals get into all sorts of trouble."
         }
     ]
 }

@@ -47,7 +47,7 @@
                 "How you doing?",
                 "Major Major at your service.",
                 "Ah, the police work is not what it used to be back in the day.",
-                "I used to chase down gangsters! Stop real bad guys! Now it's all just noise complaints, speeding, tresspassing...",
+                "I used to chase down gangsters! I used to love a good gangster! Now it's all just noise complaints, speeding, tresspassing...",
                 "Where is the thrill in that? You get me, kid.",
                 "Now, about the movie..."
             ],
@@ -69,7 +69,7 @@
             ],
             "checkout": [
                 "Amazing, thank you.",
-                "I do hope it's no red herring…",
+                "I do hope it's no red herring...",
                 "Goodbye."
             ]
         },
@@ -97,7 +97,8 @@
                 "Howdy!",
                 "Eh, my old bones need to rest, so I thought why not watch a movie.",
                 "See, I've traveled all through the west.",
-                "I'm looking for a movies that reminds me of that. But it better be accurate!"
+                "Seen a lot of things, heard a lot of stories.",
+                "I'm looking for a movies that reminds me of that life. But it better be accurate!"
             ],
             "checkout": [
                 "Thank you. Time to skedaddle.",
@@ -110,15 +111,16 @@
             "type": "Knight",
             "movie": "War Movie",
             "dialogue": [
-                "Salutations",
+                "Salutations.",
                 "I'm a knight in case you haven't noticed. I fought in many battles.",
                 "But I have a war in my head now.",
-                "You see, I cannot find a good movie to match my taste.",
-                "Do you have something for me, soldier?"
+                "You see, I cannot find a good movie to match my tastes.",
+                "I want a real epic tale. Nothing too down to earth, I don't like to be reminded of the things I've seen.",
+                "Do you have anything for me?"
             ],
             "checkout": [
-                "Thanks for having my back.",
-                "As you were."
+                "Thank you for having my back.",
+                "Au revoir."
             ]
         },
         {
@@ -131,7 +133,8 @@
                 "Hehe, I'm just messing around.",
                 "I do love to joke around, but I might be a little unstable...",
                 "Don't mean to stirrup any drama.",
-                "Anyway, you got something for me? Mane-stream or going against the rein?"
+                "Anyway, you got something for me? Mane-stream or going against the rein?",
+                "Anything funny will do, but I definitely prefer the extra wacky."
             ],
             "checkout": [
                 "Thanks, I will not say neigh to this!",
