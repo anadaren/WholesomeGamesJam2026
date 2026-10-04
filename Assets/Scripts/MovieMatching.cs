@@ -14,6 +14,9 @@ public class MovieMatching : MonoBehaviour
     public GameObject endPanel;
     public TextMeshProUGUI endingTxt;
 
+    private bool bazonko = false; // secret ending
+    private int bazonkoCounter = 0;
+
     void Awake()
     {
         if (Instance == null)
@@ -35,6 +38,11 @@ public class MovieMatching : MonoBehaviour
 
     public void CheckMovieMaching()
     {
+        if (TapeManager.selectedTape.title == "Mr. Bazonko Takes Manhattan")
+        {
+            bazonkoCounter++;
+            if (bazonkoCounter >= 8) bazonko = true;
+        }
         if (HorseManager.horseList[HorseManager.currentHorseIndex].movie == TapeManager.selectedTape.title)
         {
             Debug.Log("Correct Movie!");
@@ -75,7 +83,12 @@ public class MovieMatching : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
 
-        if (correctMatches == HorseManager.horseList.Count)
+        if (bazonko)
+        {
+            endingTxt.text = "You recommended everyone your favorite movie, Mr. Bazonko Takes Manhattan\n\nIt's kind of a cult classic, so not many people liked it.\n\nYou get fired, but there are some new Bazonko fans out there now.";
+
+        }
+        else if (correctMatches == HorseManager.horseList.Count)
         {
             endingTxt.text = correctMatches + "/7 movies matched correctly.\n\nCongratulations! You matched all the movies correctly!\n\nAll customers loved your attitude and recommendations. You get a promotion!";
         }

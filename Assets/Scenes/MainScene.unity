@@ -238,22 +238,14 @@ MonoBehaviour:
   movieSlotPrefab: {fileID: 3222364309174071299, guid: 041b2ce584cdf4ef28fbe41ea4268c85, type: 3}
   tapeContent: {fileID: 1368724563}
   tapeImages:
-  - {fileID: 0}
-  - {fileID: 21300000, guid: 56b38544e37d34e87a5492d674a42569, type: 3}
-  - {fileID: 21300000, guid: dc005f56ba7ea42e0a639d4f890f9806, type: 3}
-  - {fileID: 21300000, guid: 2b4135bd66c884d9c8b2659313a45b4b, type: 3}
-  - {fileID: 21300000, guid: 5ba064cbe77d3459bbc01cb194bfccb5, type: 3}
-  - {fileID: 21300000, guid: 7f83ecea399194c398421572240f4fba, type: 3}
-  - {fileID: 21300000, guid: b413bd23bd3bd490a8161aaef9bf5ce9, type: 3}
-  - {fileID: 21300000, guid: dedbb5a44b4104361a9f0c523476f7b6, type: 3}
-  - {fileID: 21300000, guid: 0ec3fb0bca66a4228a3c3236f66f9394, type: 3}
-  - {fileID: 21300000, guid: f9000e4aed5524b1db395cca48f5f635, type: 3}
-  - {fileID: 21300000, guid: b6a941dd93e02453e8b46b6b3413f482, type: 3}
-  - {fileID: 21300000, guid: 2dc4be00c10c544a8b55b718486b3b4f, type: 3}
-  - {fileID: 21300000, guid: 7a1afeacaa53b4b06857d4dc908808e2, type: 3}
-  - {fileID: 21300000, guid: 5e20d01ebf384483aa941b3aff912cad, type: 3}
-  - {fileID: 21300000, guid: 832cad1d1685c4de9a627dffa1e4bbec, type: 3}
-  - {fileID: 21300000, guid: 1c2eaea13ec2542bbb0c7e1a38c21121, type: 3}
+  - {fileID: 4383198841678484388, guid: bf4a2ba1ddaea4f42a98fff0dbfd184d, type: 3}
+  - {fileID: 5570211040113675524, guid: bf4a2ba1ddaea4f42a98fff0dbfd184d, type: 3}
+  - {fileID: -7579246019778958333, guid: bf4a2ba1ddaea4f42a98fff0dbfd184d, type: 3}
+  - {fileID: 2610684357082701770, guid: bf4a2ba1ddaea4f42a98fff0dbfd184d, type: 3}
+  - {fileID: -7493475662852850830, guid: bf4a2ba1ddaea4f42a98fff0dbfd184d, type: 3}
+  - {fileID: -7529476328753481438, guid: bf4a2ba1ddaea4f42a98fff0dbfd184d, type: 3}
+  - {fileID: 5845659667636453573, guid: bf4a2ba1ddaea4f42a98fff0dbfd184d, type: 3}
+  - {fileID: 5895130453717193070, guid: bf4a2ba1ddaea4f42a98fff0dbfd184d, type: 3}
   currentTapeIndex: 0
   movieTitleText: {fileID: 1181781945}
   movieGenreText: {fileID: 1966052663}
@@ -934,7 +926,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The year is 199X. You arrive at your job at [Cinemare] a video store for
+  m_text: 'The year is 199X. You arrive at your job at Cinemare, a video store for
     horses.
 
 
@@ -3043,8 +3035,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 586.35645, y: 359}
-  m_SizeDelta: {x: 325.1541, y: 72.793}
+  m_AnchoredPosition: {x: 688.776, y: 359}
+  m_SizeDelta: {x: 387.8045, y: 72.793}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1181781945
 MonoBehaviour:
@@ -3872,8 +3864,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 375, y: -136.17}
-  m_SizeDelta: {x: 260.2371, y: 203.88}
+  m_AnchoredPosition: {x: 402.97006, y: -103.51905}
+  m_SizeDelta: {x: 282.8284, y: 171.7818}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1399634347
 MonoBehaviour:
@@ -4293,81 +4285,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452291162}
   m_CullTransparentMesh: 1
---- !u!1 &1480510438
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1480510439}
-  - component: {fileID: 1480510441}
-  - component: {fileID: 1480510440}
-  m_Layer: 5
-  m_Name: Border
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1480510439
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480510438}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1607354236}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1480510440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480510438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 198610345067750395, guid: 9230131cd51244bb2b746643946b2139, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 12
---- !u!222 &1480510441
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480510438}
-  m_CullTransparentMesh: 1
 --- !u!1 &1503250562
 GameObject:
   m_ObjectHideFlags: 0
@@ -4455,7 +4372,7 @@ MonoBehaviour:
   m_Content: {fileID: 1368724563}
   m_Horizontal: 1
   m_Vertical: 1
-  m_MovementType: 1
+  m_MovementType: 2
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
@@ -4544,7 +4461,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 357, y: 95}
+  m_AnchoredPosition: {x: 741.89, y: 108}
   m_SizeDelta: {x: 185.5826, y: 32.891}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576311786
@@ -4865,8 +4782,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.25427246, y: -12.917969}
-  m_SizeDelta: {x: -632.7027, y: 0}
+  m_AnchoredPosition: {x: -0.43603516, y: -1.5731812}
+  m_SizeDelta: {x: -436.2245, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1593537860
 MonoBehaviour:
@@ -5189,16 +5106,15 @@ RectTransform:
   m_GameObject: {fileID: 1607354235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.4405, y: 2.4405, z: 2.4405}
+  m_LocalScale: {x: 2.0738392, y: 2.0738392, z: 2.0738392}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1480510439}
+  m_Children: []
   m_Father: {fileID: 1593537859}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -298, y: -31}
-  m_SizeDelta: {x: 210.96, y: 294.45}
+  m_AnchoredPosition: {x: -387, y: -0.000015259}
+  m_SizeDelta: {x: 326.4268, y: 176.4891}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1607354237
 MonoBehaviour:
@@ -5220,8 +5136,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5973989424818232797, guid: 4d6770dbfac3340d59eb686aec80bf3d, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 4383198841678484388, guid: bf4a2ba1ddaea4f42a98fff0dbfd184d, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -5998,7 +5914,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 375, y: 185}
+  m_AnchoredPosition: {x: 375, y: 176}
   m_SizeDelta: {x: 337.1771, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1966052663

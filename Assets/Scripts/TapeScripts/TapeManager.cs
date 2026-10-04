@@ -83,7 +83,38 @@ public class TapeManager : MonoBehaviour
         movieTitleText.text = selectedTape.title;
         movieGenreText.text = "Genre: " + selectedTape.genre;
         movieDescriptionText.text = selectedTape.description;
-        movieImage.sprite = tapeImages[index];
+
+
+        switch (selectedTape.genre)
+        {
+            case "Action":
+                movieImage.sprite = tapeImages[0];
+                break;
+            case "Fantasy":
+                movieImage.sprite = tapeImages[1];
+                break;
+            case "Western":
+                movieImage.sprite = tapeImages[2];
+                break;
+            case "Romance":
+                movieImage.sprite = tapeImages[3];
+                break;
+            case "Thriller":
+                movieImage.sprite = tapeImages[4];
+                break;
+            case "War":
+                movieImage.sprite = tapeImages[5];
+                break;
+            case "Mystery":
+                movieImage.sprite = tapeImages[6];
+                break;
+            case "Comedy":
+                movieImage.sprite = tapeImages[7];
+                break;
+            default:
+                movieImage.sprite = tapeImages[0];
+                break;
+        }
 
         moviePanel.SetActive(true);
     }

@@ -9,9 +9,8 @@
                 "Hi!",
                 "Real quick, can you help me find a movie?",
                 "I don't usually have a lot of time for movies. So when I watch one, I want it to be good.",
-                "I'm a race horse.",
-                "I like to go fast.",
-                "I'm looking for an action movie."
+                "I'm a race horse, you see, so I'm always training.",
+                "I like movies that are extra exciting! Something that really gets the blood pumping!"
             ],
             "checkout": [
                 "Thanks",
@@ -25,13 +24,18 @@
             "type": "Unicorn",
             "movie": "Fantasy Movie",
             "dialogue": [
-                "Hello there.",
-                "I'm a Unicorn.",
-                "I'm looking for a fantasy movie."
+                "Hello sweet angel.",
+                "Why am I so beautiful, you ask?",
+                "Well I am a unicorn! From a land far far away.",
+                "What a fantastic store you have here!",
+                "Would a charming soul like you have a movie recommendation for me?",
+                "I love all different kinds of far away fantasy worlds!",
+                "Ohhh, I can't wait to see what kind of magic is hidden in these tapes!"
             ],
             "checkout": [
-                "Thank you.",
-                "Goodbye."
+                "Oh, thank you my savior!",
+                "I'm sure that with this movie I can live happily ever after.",
+                "Farewell."
             ]
         },
         {
@@ -40,13 +44,16 @@
             "type": "Police Horse",
             "movie": "Thriller Movie",
             "dialogue": [
-                "Hello.",
-                "I'm a police horse.",
-                "I'm looking for something thrilling."
+                "How you doing?",
+                "Major Major at your service.",
+                "Ah, the police work is not what it used to be back in the day.",
+                "I used to chase down gangsters! Stop real bad guys! Now it's all just noise complaints, speeding, tresspassing...",
+                "Where is the thrill in that? You get me, kid.",
+                "Now, about the movie..."
             ],
             "checkout": [
-                "Thank you.",
-                "Goodbye."
+                "Thanks, kid. I'll give this a shot.",
+                "Major out."
             ]
         },
         {
@@ -56,12 +63,13 @@
             "movie": "Detective Movie",
             "dialogue": [
                 "Hello.",
-                "I'm a zebra.",
-                "I'm looking for a mystery.",
-                "I love trying to guess the endings of mysteries."
+                "I have no clue if you have something for me...",
+                "You see, I am trying to write a mystery novel, but I am a bit stuck.",
+                "I can't seem to think of a good motive. Do you have any ideas for me?"
             ],
             "checkout": [
-                "Thank you.",
+                "Amazing, thank you.",
+                "I do hope it's no red herring…",
                 "Goodbye."
             ]
         },
@@ -71,13 +79,13 @@
             "type": "British Horse",
             "movie": "British Movie",
             "dialogue": [
-                "Salutations.",
-                "I'm from England.",
-                "I'm looking for a romance."
+                "Oy bruv!",
+                "What a lovely li'l store. There's all kinds of bits n' bobs in here, innit?",
+                "Well, I'm lookin' for a romance. A nice right classy one, if you please."
             ],
             "checkout": [
-                "Thank you.",
-                "Goodbye."
+                "Thank you!",
+                "Catch you around mate."
             ]
         },
         {
@@ -87,13 +95,13 @@
             "movie": "Western Movie",
             "dialogue": [
                 "Howdy!",
-                "I'm a cowboy horse.",
-                "I've traveled all through the west.",
+                "Eh, my old bones need to rest, so I thought why not watch a movie.",
+                "See, I've traveled all through the west.",
                 "I'm looking for a movies that reminds me of that. But it better be accurate!"
             ],
             "checkout": [
-                "Thank you.",
-                "Goodbye."
+                "Thank you. Time to skedaddle.",
+                "So long, partner."
             ]
         },
         {
@@ -102,13 +110,15 @@
             "type": "Knight",
             "movie": "War Movie",
             "dialogue": [
-                "Greetings",
-                "I'm a knight in case you haven't noticed.",
-                "I'm looking for a movie about The War."
+                "Salutations",
+                "I'm a knight in case you haven't noticed. I fought in many battles.",
+                "But I have a war in my head now.",
+                "You see, I cannot find a good movie to match my taste.",
+                "Do you have something for me, soldier?"
             ],
             "checkout": [
-                "Thank you.",
-                "Goodbye."
+                "Thanks for having my back.",
+                "As you were."
             ]
         },
         {
@@ -117,13 +127,15 @@
             "type": "Pony",
             "movie": "Comedy Movie",
             "dialogue": [
-                "Hehe, hey there!",
-                "I'm a pony.",
-                "I'm looking for a comedy!"
+                "Knock knock, who's there?",
+                "Hehe, I'm just messing around.",
+                "I do love to joke around, but I might be a little unstable...",
+                "Don't mean to stirrup any drama.",
+                "Anyway, you got something for me? Mane-stream or going against the rein?"
             ],
             "checkout": [
-                "Thank you.",
-                "Goodbye."
+                "Thanks, I will not say neigh to this!",
+                "Bye bye."
             ]
         }
     ]

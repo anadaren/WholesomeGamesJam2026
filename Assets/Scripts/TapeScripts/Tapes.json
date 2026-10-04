@@ -9,39 +9,39 @@
         },
         {
             "index": 1,
-            "title": "Fantasy Movie",
+            "title": "The Lord of the Reins",
             "genre": "Fantasy",
-            "description": "A movie with a lot of magic and dragons and castles."
+            "description": "One rein to rule them all. Follow this brave herd of horses as they traverse the far-away world of Middle-Pasture, to destroy the One Rein."
         },
         {
             "index": 2,
-            "title": "Thriller Movie",
-            "genre": "Thriller, Action",
-            "description": "A scary movie that'll keep you on the edge of your seat."
+            "title": "Al Capony",
+            "genre": "Thriller",
+            "description": "The story of the greatest gangster known to horses. Not for the weak!"
         },
         {
             "index": 3,
-            "title": "Detective Movie",
+            "title": "Sherlock Hooves: Murder of Lady Nightmare",
             "genre": "Mystery",
-            "description": "A movie about a grizzled detective solving a murder."
+            "description": "Our beloved British detective sets out to uncover another mystery by carefully dissecting the killers motives. Will he solve it and find the killer? Probably. Unless..."
         },
         {
             "index": 4,
-            "title": "Romance Movie",
+            "title": "The Stable Relationship",
             "genre": "Romance",
-            "description": "A forbidden romance between a horse and a donkey."
+            "description": "A movie following the life of a couple living in central London. Will they make it through life's hardships or is their stable relationship not meant to be?"
         },
         {
             "index": 5,
-            "title": "Western Movie",
+            "title": "Colt",
             "genre": "Western",
-            "description": "This town ain't big enough for the two of them."
+            "description": "Wild like the West, Colt is a true gunslinger, outlaw and lady lover. Need I say more? Based on a true story."
         },
         {
             "index": 6,
-            "title": "War Movie",
-            "genre": "Thriller, Historical",
-            "description": "The year is 19XX and there's a war going on. This movie is about that."
+            "title": "Saving private Stallion",
+            "genre": "War",
+            "description": "The year is 19XX and there's a war going on. This movie is about that. And there's a soldier in that war."
         },
         {
             "index": 7,
@@ -55,47 +55,47 @@
             "genre": "Action",
             "description": "It's like the movie Taxi Driver. But this time? There's horses in it. How will that change things? You'll just have to wait and see!"
         },
-        {
+                {
             "index": 9,
-            "title": "Fantasy Movie2",
+            "title": "Harry Trotter and the Prisoner of Stables",
             "genre": "Fantasy",
-            "description": "A movie with a lot of magic and dragons and castles."
+            "description": "Another movie from the popular series about magic, friendship, fantastic creatures and the fight of good and evil."
         },
         {
             "index": 10,
-            "title": "Thriller Movie2",
+            "title": "Horse to the Hearse",
             "genre": "Thriller",
-            "description": "A scary movie that'll keep you on the edge of your seat."
+            "description": "A  simple town horse gets mixed up into a potentially lethal situation. This movie will keep you on the edge of your seat."
         },
         {
             "index": 11,
-            "title": "Detective Movie2",
+            "title": "Needle in a Haystack",
             "genre": "Mystery",
-            "description": "A movie about a grizzled detective solving a murder."
+            "description": "Loaded lord dies. Leaves a large inheritance for his family. But it's well hidden. Like a needle in a haystack. Clues? Whoever finds it, gets it."
         },
         {
             "index": 12,
-            "title": "Romance Movie2",
+            "title": "Filly and Silly",
             "genre": "Romance",
-            "description": "A forbidden romance between a horse and a donkey."
+            "description": "A forbidden romance between a sophisticated lady and a silly donkey."
         },
         {
             "index": 13,
-            "title": "Western Movie2",
+            "title": "The Good, the Bad and the Mule",
             "genre": "Western",
-            "description": "This town ain't big enough for the two of them."
+            "description": "Classic spaghetti western with a twist. Bounty hunters, shooting, suspense and, of course, gold - it has it all!"
         },
         {
             "index": 14,
-            "title": "War Movie2",
-            "genre": "Historical",
-            "description": "The year is 19XX and there's a war going on. This movie is about that."
+            "title": "Donkey King",
+            "genre": "War",
+            "description": "The true donkey king must be out there… He is the last hope of restoring the kingdom to its former glory."
         },
         {
             "index": 15,
-            "title": "Comedy Movie2",
+            "title": "Neigh-borhood Watch",
             "genre": "Comedy",
-            "description": "A barrel of laughs for the whole family"
+            "description": "A group of kids embark on an adventure to protect their neigh-borhood. Horsing around the town has never been more fun!."
         }
     ]
 }
