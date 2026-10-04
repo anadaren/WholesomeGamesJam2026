@@ -12,7 +12,7 @@ public class TapeManager : MonoBehaviour
     public GameObject movieSlotPrefab;
     public Transform tapeContent;
 
-    public Image[] tapeImages; // Array to hold the images for each tape
+    public Sprite[] tapeImages; // Array to hold the images for each tape
     public int currentTapeIndex = 0; // Reference to the tape thats info is currently being displayed
 
     [Header("Movie Elements")]
@@ -83,7 +83,7 @@ public class TapeManager : MonoBehaviour
         movieTitleText.text = selectedTape.title;
         movieGenreText.text = "Genre: " + selectedTape.genre;
         movieDescriptionText.text = selectedTape.description;
-        //movieImage.sprite = tapeImages[index].sprite;
+        movieImage.sprite = tapeImages[index];
 
         moviePanel.SetActive(true);
     }

@@ -34,6 +34,9 @@ public class TapeJSONParser : MonoBehaviour
             //Debug.Log("Tape index: " + tape.index + " Tape title: " + tape.title + " Tape genre: " + tape.genre + " Tape description: " + tape.description);
             tapeList.Add(tape);
         }
+
+        // Sort alphabetically by title
+        tapeList.Sort((a, b) => a.title.CompareTo(b.title));
     }
 
     public int SearchForTape(string tapeToFind) // Not sure if we'll need this, but it could be useful??

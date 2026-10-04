@@ -113,8 +113,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 714.4252, y: 145.8699}
+  m_AnchoredPosition: {x: 0, y: -16.112793}
+  m_SizeDelta: {x: 714.4252, y: 225.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7656941712752371976
 CanvasRenderer:
@@ -257,8 +257,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.3608, y: -0.0003891}
-  m_SizeDelta: {x: 258.3433, y: 58.913}
+  m_AnchoredPosition: {x: 0, y: 0.7669}
+  m_SizeDelta: {x: 151.1232, y: 39.7002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &475032982850570879
 CanvasRenderer:
@@ -288,7 +288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Movie Title
+  m_text: Movie Title Movie Title Movie Title Movie Title
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64d5da5b3f49240bd998ac6d71be44df, type: 2}
   m_sharedMaterial: {fileID: 4847644786219102325, guid: 64d5da5b3f49240bd998ac6d71be44df, type: 2}
@@ -315,11 +315,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 16
   m_fontSizeBase: 20
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 16
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
@@ -332,9 +332,9 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
+  m_TextWrappingMode: 2
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
+  m_overflowMode: 1
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0

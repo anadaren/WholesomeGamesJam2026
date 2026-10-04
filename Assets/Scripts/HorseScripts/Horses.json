@@ -2,27 +2,31 @@
     "horses": [
         {
             "index": 0,
-            "name": "Race Horse name",
+            "name": "Blaze",
             "type": "Race Horse",
             "movie": "Action Movie",
             "dialogue": [
-                "Hello",
-                "I'm a race horse",
+                "Hi!",
+                "Real quick, can you help me find a movie?",
+                "I don't usually have a lot of time for movies. So when I watch one, I want it to be good.",
+                "I'm a race horse.",
+                "I like to go fast.",
                 "I'm looking for an action movie."
             ],
             "checkout": [
-                "Thank you.",
-                "Goodbye."
+                "Thanks",
+                "I'm gonna run home and watch it now!",
+                "Later!"
             ]
         },
         {
             "index": 1,
-            "name": "Unicorn name",
+            "name": "Princess",
             "type": "Unicorn",
             "movie": "Fantasy Movie",
             "dialogue": [
-                "Hello",
-                "I'm a Unicorn",
+                "Hello there.",
+                "I'm a Unicorn.",
                 "I'm looking for a fantasy movie."
             ],
             "checkout": [
@@ -32,13 +36,13 @@
         },
         {
             "index": 2,
-            "name": "Police Horse name",
+            "name": "Major",
             "type": "Police Horse",
             "movie": "Thriller Movie",
             "dialogue": [
-                "Hello",
-                "I'm a police horse",
-                "I'm looking for a thriller."
+                "Hello.",
+                "I'm a police horse.",
+                "I'm looking for something thrilling."
             ],
             "checkout": [
                 "Thank you.",
@@ -47,13 +51,14 @@
         },
         {
             "index": 3,
-            "name": "Zebra Horse name",
+            "name": "Noir",
             "type": "Zebra Horse",
             "movie": "Detective Movie",
             "dialogue": [
-                "Hello",
-                "I'm a zebra",
-                "I'm looking for a mystery."
+                "Hello.",
+                "I'm a zebra.",
+                "I'm looking for a mystery.",
+                "I love trying to guess the endings of mysteries."
             ],
             "checkout": [
                 "Thank you.",
@@ -62,13 +67,13 @@
         },
         {
             "index": 4,
-            "name": "British Horse name",
+            "name": "Vivienne",
             "type": "British Horse",
             "movie": "British Movie",
             "dialogue": [
-                "Hello",
-                "I'm a British horse",
-                "I'm looking for a romance"
+                "Salutations.",
+                "I'm from England.",
+                "I'm looking for a romance."
             ],
             "checkout": [
                 "Thank you.",
@@ -77,13 +82,14 @@
         },
         {
             "index": 5,
-            "name": "Cowboy Horse name",
+            "name": "Ol' Hooves",
             "type": "Cowboy Horse",
             "movie": "Western Movie",
             "dialogue": [
-                "Hello",
-                "I'm a cowboy horse",
-                "I'm looking for a Western"
+                "Howdy!",
+                "I'm a cowboy horse.",
+                "I've traveled all through the west.",
+                "I'm looking for a movies that reminds me of that. But it better be accurate!"
             ],
             "checkout": [
                 "Thank you.",
@@ -92,13 +98,13 @@
         },
         {
             "index": 6,
-            "name": "Knight name",
+            "name": "Le Cheval",
             "type": "Knight",
             "movie": "War Movie",
             "dialogue": [
-                "Hello",
-                "I'm a knight",
-                "I'm looking for a movie about war."
+                "Greetings",
+                "I'm a knight in case you haven't noticed.",
+                "I'm looking for a movie about The War."
             ],
             "checkout": [
                 "Thank you.",
@@ -107,13 +113,13 @@
         },
         {
             "index": 7,
-            "name": "Pony name",
+            "name": "Peanut",
             "type": "Pony",
             "movie": "Comedy Movie",
             "dialogue": [
-                "Hello",
-                "I'm a pony",
-                "I'm looking for a comedy"
+                "Hehe, hey there!",
+                "I'm a pony.",
+                "I'm looking for a comedy!"
             ],
             "checkout": [
                 "Thank you.",

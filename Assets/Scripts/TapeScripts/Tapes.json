@@ -3,9 +3,9 @@
     [
         {
             "index": 0,
-            "title": "Action Movie",
+            "title": "The Fast and the Fast",
             "genre": "Action",
-            "description": "A movie with a lot of action."
+            "description": "A movie with a lot of action! Explosions! Drama! Intrigue! There's lots going on and it's all happening at once."
         },
         {
             "index": 1,
@@ -27,7 +27,7 @@
         },
         {
             "index": 4,
-            "title": "British Movie",
+            "title": "Romance Movie",
             "genre": "Romance",
             "description": "A forbidden romance between a horse and a donkey."
         },
@@ -45,7 +45,55 @@
         },
         {
             "index": 7,
-            "title": "Comedy Movie",
+            "title": "Mr. Bazonko Takes Manhattan",
+            "genre": "Comedy",
+            "description": "Wacky antics with Mr. Bazonko and the crawdad bunch. What crazy antics will he get up to next? Who knows."
+        },
+        {
+            "index": 8,
+            "title": "Taxi Drivers With Horses",
+            "genre": "Action",
+            "description": "It's like the movie Taxi Driver. But this time? There's horses in it. How will that change things? You'll just have to wait and see!"
+        },
+        {
+            "index": 9,
+            "title": "Fantasy Movie2",
+            "genre": "Fantasy",
+            "description": "A movie with a lot of magic and dragons and castles."
+        },
+        {
+            "index": 10,
+            "title": "Thriller Movie2",
+            "genre": "Thriller",
+            "description": "A scary movie that'll keep you on the edge of your seat."
+        },
+        {
+            "index": 11,
+            "title": "Detective Movie2",
+            "genre": "Mystery",
+            "description": "A movie about a grizzled detective solving a murder."
+        },
+        {
+            "index": 12,
+            "title": "Romance Movie2",
+            "genre": "Romance",
+            "description": "A forbidden romance between a horse and a donkey."
+        },
+        {
+            "index": 13,
+            "title": "Western Movie2",
+            "genre": "Western",
+            "description": "This town ain't big enough for the two of them."
+        },
+        {
+            "index": 14,
+            "title": "War Movie2",
+            "genre": "Historical",
+            "description": "The year is 19XX and there's a war going on. This movie is about that."
+        },
+        {
+            "index": 15,
+            "title": "Comedy Movie2",
             "genre": "Comedy",
             "description": "A barrel of laughs for the whole family"
         }
