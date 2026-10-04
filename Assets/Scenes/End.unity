@@ -147,7 +147,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: da11608bbfaf14ffab94f64a084bbae8, type: 3}
+  m_Resource: {fileID: 8300000, guid: daa8b92d6aa7b4a4cb56851a10d7cf4d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -380,6 +380,55 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &524132997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 524132999}
+  - component: {fileID: 524132998}
+  m_Layer: 0
+  m_Name: EndScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &524132998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524132997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f7bb9d00e0841099e790b41f665153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EndScene
+  animator: {fileID: 2100695918}
+  fadeOut: {fileID: 7400000, guid: 5526aba3836844fbf99bc75c1de9bb28, type: 2}
+  fadeIn: {fileID: 7400000, guid: f0447aced185f40f8acb43257e1a115b, type: 2}
+  fadePanel: {fileID: 2100695914}
+  goToScene: Title
+--- !u!4 &524132999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524132997}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 526.2241, y: 374.1884, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -830,16 +879,16 @@ MonoBehaviour:
   horseMusicTracks:
   - {fileID: 8300000, guid: f04089320147f4048a43c3277bb6ca34, type: 3}
   - {fileID: 8300000, guid: 28c84685ee6bf412f83d5ff46a3e265d, type: 3}
-  - {fileID: 8300000, guid: 7ddc01102ff5742eba4b2f90ecb07bec, type: 3}
-  - {fileID: 8300000, guid: c94e210a45bdf472e89b87b1aae13752, type: 3}
+  - {fileID: 8300000, guid: 128e9d552bbcd4952bc881df36213b2f, type: 3}
+  - {fileID: 8300000, guid: bbe014cebdcc44ad38103ebbde5bc9f2, type: 3}
   - {fileID: 8300000, guid: 697247652ac7e4c11b6711cc06ed7666, type: 3}
-  - {fileID: 8300000, guid: c61741f8af1fc42fab6c76006bb4832d, type: 3}
-  - {fileID: 8300000, guid: db5cdce859275473095fbb3994656dc5, type: 3}
-  - {fileID: 8300000, guid: 2e14463d679eb4f83aa362db61fa0332, type: 3}
+  - {fileID: 8300000, guid: 6aae60fef91aa49c0a82c0100bbeb6cb, type: 3}
+  - {fileID: 8300000, guid: 439d6957ec203419991705b19cda66e2, type: 3}
+  - {fileID: 8300000, guid: 8de0a2d5b38434178bfaf7f5a0ad2ef7, type: 3}
   sfxClips:
   - {fileID: 8300000, guid: 07d594389ce0b43c59a444d8c2cac0d3, type: 3}
   - {fileID: 8300000, guid: 67a9a9a3d173f401e8dfb0bca7eff9fd, type: 3}
-  - {fileID: 8300000, guid: e367db5a5681440df937d4e7c74a1f90, type: 3}
+  - {fileID: 8300000, guid: 13a532dc8ffd3431db312d57841b81f3, type: 3}
   - {fileID: 8300000, guid: adffea2675d684c1fb46f5b02d85a1ac, type: 3}
   defaultMusic: {fileID: 8300000, guid: a005b860f5f9b4a14aeeb6e919df3ec7, type: 3}
 --- !u!4 &1128664297
@@ -1245,9 +1294,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 667501812}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: GoToScene
+      - m_Target: {fileID: 524132998}
+        m_TargetAssemblyTypeName: EndScene, Assembly-CSharp
+        m_MethodName: FadeOut
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1400,7 +1449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2100695915
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1488,6 +1537,7 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 667501816}
   - {fileID: 543383953}
+  - {fileID: 524132999}
   - {fileID: 1311458877}
   - {fileID: 1128664297}
   - {fileID: 294414631}

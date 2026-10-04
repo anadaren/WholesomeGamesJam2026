@@ -40,9 +40,11 @@ public class MovieMatching : MonoBehaviour
     {
         if (TapeManager.selectedTape.title == "Mr. Bazonko Takes Manhattan")
         {
+            Debug.Log("BAZONKO");
             bazonkoCounter++;
             if (bazonkoCounter >= 8) bazonko = true;
         }
+        Debug.Log(HorseManager.horseList[HorseManager.currentHorseIndex] + " " + TapeManager.selectedTape.title);
         if (HorseManager.horseList[HorseManager.currentHorseIndex].movie == TapeManager.selectedTape.title)
         {
             Debug.Log("Correct Movie!");
@@ -55,6 +57,8 @@ public class MovieMatching : MonoBehaviour
             // TODO: Add more dialogue for horses negative reaction
         }
         horsesMatched++;
+        Debug.Log("current score " + correctMatches + "/8");
+        Debug.Log("horses matched so far: " + horsesMatched);
         if (horsesMatched >= 8)
         {
             StartCoroutine(EndGame());
@@ -90,15 +94,15 @@ public class MovieMatching : MonoBehaviour
         }
         else if (correctMatches == HorseManager.horseList.Count)
         {
-            endingTxt.text = correctMatches + "/7 movies matched correctly.\n\nCongratulations! You matched all the movies correctly!\n\nAll customers loved your attitude and recommendations. You get a promotion!";
+            endingTxt.text = correctMatches + "/8 movies matched correctly.\n\nCongratulations! You matched all the movies correctly!\n\nAll customers loved your attitude and recommendations. You get a promotion!";
         }
         else if (correctMatches > 3)
         {
-            endingTxt.text = correctMatches + "/7 movies matched correctly.\n\nGood job!\n\nCustomers generally like you. You'll come in to work tomorrow just like any day.";
+            endingTxt.text = correctMatches + "/8 movies matched correctly.\n\nGood job!\n\nCustomers generally like you. You'll come in to work tomorrow just like any day.";
         }
         else
         {
-            endingTxt.text = correctMatches + "/7 movies matched correctly.\n\nBetter luck next time!\n\nYou got a bunch of complaints from customers, saying you didn't pay attention to anything they said. You get fired!";
+            endingTxt.text = correctMatches + "/8 movies matched correctly.\n\nBetter luck next time!\n\nYou got a bunch of complaints from customers, saying you didn't pay attention to anything they said. You get fired!";
         }
         endPanel.SetActive(true);
     }

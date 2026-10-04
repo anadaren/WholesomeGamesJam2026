@@ -4,7 +4,7 @@
             "index": 0,
             "name": "Blaze",
             "type": "Race Horse",
-            "movie": "Action Movie",
+            "movie": "The Fast and the Fast",
             "dialogue": [
                 "Hi!",
                 "Real quick, can you help me find a movie?",
@@ -22,7 +22,7 @@
             "index": 1,
             "name": "Princess",
             "type": "Unicorn",
-            "movie": "Fantasy Movie",
+            "movie": "The Lord of the Reins",
             "dialogue": [
                 "Hello sweet angel.",
                 "Why am I so beautiful, you ask?",
@@ -42,7 +42,7 @@
             "index": 2,
             "name": "Major",
             "type": "Police Horse",
-            "movie": "Thriller Movie",
+            "movie": "Al Capony",
             "dialogue": [
                 "How you doing?",
                 "Major Major at your service.",
@@ -60,7 +60,7 @@
             "index": 3,
             "name": "Noir",
             "type": "Zebra Horse",
-            "movie": "Detective Movie",
+            "movie": "Sherlock Hooves: Murder of Lady Nightmare",
             "dialogue": [
                 "Hello.",
                 "I have no clue if you have something for me...",
@@ -77,7 +77,7 @@
             "index": 4,
             "name": "Vivienne",
             "type": "British Horse",
-            "movie": "British Movie",
+            "movie": "The Stable Relationship",
             "dialogue": [
                 "Oy bruv!",
                 "What a lovely li'l store. There's all kinds of bits n' bobs in here, innit?",
@@ -92,13 +92,13 @@
             "index": 5,
             "name": "Ol' Hooves",
             "type": "Cowboy Horse",
-            "movie": "Western Movie",
+            "movie": "Colt",
             "dialogue": [
                 "Howdy!",
                 "Eh, my old bones need to rest, so I thought why not watch a movie.",
                 "See, I've traveled all through the west.",
                 "Seen a lot of things, heard a lot of stories.",
-                "I'm looking for a movies that reminds me of that life. But it better be accurate!"
+                "I'm looking for a movie that reminds me of that life. But it better be accurate!"
             ],
             "checkout": [
                 "Thank you. Time to skedaddle.",
@@ -109,7 +109,7 @@
             "index": 6,
             "name": "Le Cheval",
             "type": "Knight",
-            "movie": "War Movie",
+            "movie": "A Horse Odyssey",
             "dialogue": [
                 "Salutations.",
                 "I'm a knight in case you haven't noticed. I fought in many battles.",
@@ -127,7 +127,7 @@
             "index": 7,
             "name": "Peanut",
             "type": "Pony",
-            "movie": "Comedy Movie",
+            "movie": "Mr. Bazonko Takes Manhattan",
             "dialogue": [
                 "Knock knock, who's there?",
                 "Hehe, I'm just messing around.",

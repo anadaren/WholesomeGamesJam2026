@@ -110,7 +110,7 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) { HandleAdvance(); }
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) { HandleAdvance(); }
     }
 
     private void HandleAdvance()
