@@ -70,15 +70,15 @@ public class MovieMatching : MonoBehaviour
     {
         if (correctMatches == HorseManager.horseList.Count)
         {
-            endingTxt.text = "Congratulations! You matched all the movies correctly! Best ending.";
+            endingTxt.text = correctMatches + "/7 movies matched correctly.\nCongratulations! You matched all the movies correctly!\nAll customers loved your attitude and recommendations. You get a promotion!";
         }
         else if (correctMatches > 3)
         {
-            endingTxt.text = "Good job! You got " + correctMatches + " correct matches. Okay ending.";
+            endingTxt.text = correctMatches + "/7 movies matched correctly.\nGood job!\nCustomers generally like you. You'll come in to work tomorrow just like any day.";
         }
         else
         {
-            endingTxt.text = "Game Over! You got " + correctMatches + " correct matches. Bad ending.";
+            endingTxt.text = correctMatches + "/7 movies matched correctly.\nGame Over!\nYou got a bunch of complaints from customers, saying you didn't pay attention to anything they said. You get fired!";
         }
         endPanel.SetActive(true);
     }

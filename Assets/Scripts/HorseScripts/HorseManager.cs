@@ -17,11 +17,10 @@ public class HorseManager : MonoBehaviour
     public List<Horse> horseList; // List to hold the horses; will be shuffled from their original indexes
 
     public Horse currentHorse; // Current horse that's on screen
-    public int currentHorseIndex; // Where in the list of horses we are on the current playthrough
+    public int currentHorseIndex; // Where in the list of horses we are on the CURRENT PLAYTHROUGH
+    // To get the actual index of the horse, use currentHorse.index
     public Image currentHorseImage; // Image component of currently displayed horse
 
-
-    public TextMeshProUGUI horseNameText; // TEMPORARY; DELETE LATER
 
 
     void Awake()
@@ -59,10 +58,6 @@ public class HorseManager : MonoBehaviour
 
         currentHorse = horseList[0];
         currentHorseImage.sprite = horseImages[currentHorse.index];
-
-        // Testing
-        horseNameText.text = "TEST: " + horseList[0].name; // Test text delete later
-        //Debug.Log("Randomized horses: " + string.Join(", ", horseList.ConvertAll(h => h.name).ToArray()));
     }
 
 
@@ -76,10 +71,12 @@ public class HorseManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         menuAnimations.HorseFadeOut(); // Old horse fades out
         yield return new WaitForSeconds(2f);
-        currentHorseImage.gameObject.SetActive(true); // New horse fades in
 
         currentHorse = horseList[currentHorseIndex];
-        horseNameText.text = "TEST: " + currentHorse.name; // Update test text; delete later
+        AudioManager.Instance.SwitchMusic(currentHorse.index); // Switches music to horses theme
+        currentHorseImage.sprite = horseImages[currentHorse.index]; // Updates horse sprite
+
+        currentHorseImage.gameObject.SetActive(true); // New horse fades in
 
         yield return new WaitForSeconds(1f);
         DialogueManager.Instance.BeginDialogue();
