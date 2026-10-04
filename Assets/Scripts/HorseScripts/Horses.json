@@ -6,13 +6,13 @@
             "type": "Race Horse",
             "movie": "Action Movie",
             "dialogue": [
+                "Hello",
                 "I'm a race horse",
-                "I'm a race horse",
-                "I'm still a race horse"
+                "I'm looking for an action movie."
             ],
             "checkout": [
                 "Thank you.",
-                "Goodbye"
+                "Goodbye."
             ]
         },
         {
@@ -21,13 +21,13 @@
             "type": "Unicorn",
             "movie": "Fantasy Movie",
             "dialogue": [
+                "Hello",
                 "I'm a Unicorn",
-                "I'm a Unicorn",
-                "I'm still a Unicorn"
+                "I'm looking for a fantasy movie."
             ],
             "checkout": [
                 "Thank you.",
-                "Goodbye"
+                "Goodbye."
             ]
         },
         {
@@ -36,13 +36,13 @@
             "type": "Police Horse",
             "movie": "Thriller Movie",
             "dialogue": [
+                "Hello",
                 "I'm a police horse",
-                "I'm a police horse",
-                "I'm still a police horse"
+                "I'm looking for a thriller."
             ],
             "checkout": [
                 "Thank you.",
-                "Goodbye"
+                "Goodbye."
             ]
         },
         {
@@ -51,13 +51,13 @@
             "type": "Zebra Horse",
             "movie": "Detective Movie",
             "dialogue": [
-                "I'm a zebra horse",
-                "I'm a zebra horse",
-                "I'm still a zebra horse"
+                "Hello",
+                "I'm a zebra",
+                "I'm looking for a mystery."
             ],
             "checkout": [
                 "Thank you.",
-                "Goodbye"
+                "Goodbye."
             ]
         },
         {
@@ -66,13 +66,13 @@
             "type": "British Horse",
             "movie": "British Movie",
             "dialogue": [
+                "Hello",
                 "I'm a British horse",
-                "I'm a British horse",
-                "I'm still a British horse"
+                "I'm looking for a romance"
             ],
             "checkout": [
                 "Thank you.",
-                "Goodbye"
+                "Goodbye."
             ]
         },
         {
@@ -81,13 +81,13 @@
             "type": "Cowboy Horse",
             "movie": "Western Movie",
             "dialogue": [
+                "Hello",
                 "I'm a cowboy horse",
-                "I'm a cowboy horse",
-                "I'm still a cowboy horse"
+                "I'm looking for a Western"
             ],
             "checkout": [
                 "Thank you.",
-                "Goodbye"
+                "Goodbye."
             ]
         },
         {
@@ -96,13 +96,13 @@
             "type": "Knight",
             "movie": "War Movie",
             "dialogue": [
+                "Hello",
                 "I'm a knight",
-                "I'm a knight",
-                "I'm still a knight"
+                "I'm looking for a movie about war."
             ],
             "checkout": [
                 "Thank you.",
-                "Goodbye"
+                "Goodbye."
             ]
         },
         {
@@ -111,13 +111,13 @@
             "type": "Pony",
             "movie": "Comedy Movie",
             "dialogue": [
+                "Hello",
                 "I'm a pony",
-                "I'm a pony",
-                "I'm still a pony"
+                "I'm looking for a comedy"
             ],
             "checkout": [
                 "Thank you.",
-                "Goodbye"
+                "Goodbye."
             ]
         }
     ]

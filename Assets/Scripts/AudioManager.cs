@@ -10,10 +10,10 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip[] horseMusicTracks;
     [SerializeField] private AudioClip[] sfxClips;
     /*
-    0 - Button click sound 
+    0 - UI Button click sound 
     1 - Door Beep
-    2 - Checkout sound
-    3 - Inventory woosh
+    2 - Inventory woosh
+    3 - Checkout sound
     */
 
     [SerializeField] private AudioClip defaultMusic;
@@ -32,9 +32,15 @@ public class AudioManager : MonoBehaviour
 
     public void SwitchMusic(int clipIndex)
     {
-        if (horseMusicTracks[clipIndex] == null) { music.clip = defaultMusic; }
+        if (horseMusicTracks[clipIndex] == null) return;
 
         music.clip = horseMusicTracks[clipIndex];
+        music.Play();
+    }
+
+    public void DefaultMusic()
+    {
+        music.clip = defaultMusic;
         music.Play();
     }
 
@@ -43,6 +49,7 @@ public class AudioManager : MonoBehaviour
         if (sfxClips[sfxIndex] == null) return;
 
         sfx.clip = sfxClips[sfxIndex];
+        sfx.Play();
     }
 
 }

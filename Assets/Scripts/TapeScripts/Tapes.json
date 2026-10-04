@@ -5,49 +5,49 @@
             "index": 0,
             "title": "Action Movie",
             "genre": "Action",
-            "description": "Action movie description."
+            "description": "A movie with a lot of action."
         },
         {
             "index": 1,
             "title": "Fantasy Movie",
             "genre": "Fantasy",
-            "description": "Fantasy movie description."
+            "description": "A movie with a lot of magic and dragons and castles."
         },
         {
             "index": 2,
             "title": "Thriller Movie",
-            "genre": "Thriller",
-            "description": "Thriller movie description."
+            "genre": "Thriller, Action",
+            "description": "A scary movie that'll keep you on the edge of your seat."
         },
         {
             "index": 3,
             "title": "Detective Movie",
-            "genre": "Detective",
-            "description": "Detective movie description."
+            "genre": "Mystery",
+            "description": "A movie about a grizzled detective solving a murder."
         },
         {
             "index": 4,
             "title": "British Movie",
             "genre": "Romance",
-            "description": "British movie description."
+            "description": "A forbidden romance between a horse and a donkey."
         },
         {
             "index": 5,
             "title": "Western Movie",
             "genre": "Western",
-            "description": "Western movie description."
+            "description": "This town ain't big enough for the two of them."
         },
         {
             "index": 6,
             "title": "War Movie",
-            "genre": "Thriller",
-            "description": "War movie description."
+            "genre": "Thriller, Historical",
+            "description": "The year is 19XX and there's a war going on. This movie is about that."
         },
         {
             "index": 7,
             "title": "Comedy Movie",
             "genre": "Comedy",
-            "description": "Comedy movie description."
+            "description": "A barrel of laughs for the whole family"
         }
     ]
 }

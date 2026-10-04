@@ -179,7 +179,7 @@ MonoBehaviour:
   m_text: About
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64d5da5b3f49240bd998ac6d71be44df, type: 2}
-  m_sharedMaterial: {fileID: 5739300869501183828, guid: e88a8a01725e44cce9fc99a1587172b9, type: 2}
+  m_sharedMaterial: {fileID: 4847644786219102325, guid: 64d5da5b3f49240bd998ac6d71be44df, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &181212261
@@ -901,6 +901,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1128664296}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &762136241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,7 +933,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 5973989424818232797, guid: 4d6770dbfac3340d59eb686aec80bf3d, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -930,7 +942,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 16
 --- !u!222 &762136242
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1034,6 +1046,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1128664296}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &823749857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1054,7 +1078,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 5973989424818232797, guid: 4d6770dbfac3340d59eb686aec80bf3d, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1063,7 +1087,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 32
 --- !u!222 &823749858
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1106,7 +1130,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.5, y: 1.6}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &998335216
@@ -1132,7 +1156,7 @@ MonoBehaviour:
   m_text: x
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64d5da5b3f49240bd998ac6d71be44df, type: 2}
-  m_sharedMaterial: {fileID: 5739300869501183828, guid: e88a8a01725e44cce9fc99a1587172b9, type: 2}
+  m_sharedMaterial: {fileID: 4847644786219102325, guid: 64d5da5b3f49240bd998ac6d71be44df, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1198,7 +1222,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &998335217
@@ -1372,10 +1396,17 @@ MonoBehaviour:
   horseMusicTracks:
   - {fileID: 8300000, guid: f04089320147f4048a43c3277bb6ca34, type: 3}
   - {fileID: 8300000, guid: 28c84685ee6bf412f83d5ff46a3e265d, type: 3}
-  - {fileID: 8300000, guid: 697247652ac7e4c11b6711cc06ed7666, type: 3}
   - {fileID: 8300000, guid: 7ddc01102ff5742eba4b2f90ecb07bec, type: 3}
+  - {fileID: 8300000, guid: c94e210a45bdf472e89b87b1aae13752, type: 3}
+  - {fileID: 8300000, guid: 697247652ac7e4c11b6711cc06ed7666, type: 3}
   - {fileID: 8300000, guid: c61741f8af1fc42fab6c76006bb4832d, type: 3}
-  sfxClips: []
+  - {fileID: 8300000, guid: db5cdce859275473095fbb3994656dc5, type: 3}
+  - {fileID: 8300000, guid: 2e14463d679eb4f83aa362db61fa0332, type: 3}
+  sfxClips:
+  - {fileID: 8300000, guid: 07d594389ce0b43c59a444d8c2cac0d3, type: 3}
+  - {fileID: 8300000, guid: 67a9a9a3d173f401e8dfb0bca7eff9fd, type: 3}
+  - {fileID: 8300000, guid: e367db5a5681440df937d4e7c74a1f90, type: 3}
+  - {fileID: 8300000, guid: adffea2675d684c1fb46f5b02d85a1ac, type: 3}
   defaultMusic: {fileID: 8300000, guid: a005b860f5f9b4a14aeeb6e919df3ec7, type: 3}
 --- !u!4 &1128664297
 Transform:
@@ -1929,6 +1960,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1128664296}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySFX
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1501679901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1949,7 +1992,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 5973989424818232797, guid: 4d6770dbfac3340d59eb686aec80bf3d, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1958,7 +2001,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 16
 --- !u!222 &1501679902
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2102,7 +2145,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 5973989424818232797, guid: 4d6770dbfac3340d59eb686aec80bf3d, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2111,7 +2154,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 4
 --- !u!222 &1741567767
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2256,7 +2299,7 @@ MonoBehaviour:
     - Art\nEthan - Music\nIsaac - Programming"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 64d5da5b3f49240bd998ac6d71be44df, type: 2}
-  m_sharedMaterial: {fileID: 5739300869501183828, guid: e88a8a01725e44cce9fc99a1587172b9, type: 2}
+  m_sharedMaterial: {fileID: 4847644786219102325, guid: 64d5da5b3f49240bd998ac6d71be44df, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2322,7 +2365,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1950196394
@@ -2342,6 +2385,6 @@ SceneRoots:
   - {fileID: 667501816}
   - {fileID: 543383953}
   - {fileID: 1311458877}
-  - {fileID: 1076263251}
-  - {fileID: 294414631}
   - {fileID: 1128664297}
+  - {fileID: 294414631}
+  - {fileID: 1076263251}

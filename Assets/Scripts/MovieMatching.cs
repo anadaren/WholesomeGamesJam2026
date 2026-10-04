@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using TMPro;
 
 public class MovieMatching : MonoBehaviour
@@ -48,7 +49,7 @@ public class MovieMatching : MonoBehaviour
         horsesMatched++;
         if (horsesMatched >= 8)
         {
-            EndGame();
+            StartCoroutine(EndGame());
         }
         else
         {
@@ -66,19 +67,25 @@ public class MovieMatching : MonoBehaviour
         HorseManager.NewHorse();
     }
 
-    public void EndGame()
+    public IEnumerator EndGame()
     {
+        yield return new WaitForSeconds(1f);
+        HorseManager.menuAnimations.HorseFadeOut(); // Fade out last horse
+        AudioManager.Instance.DefaultMusic(); // Switches music to default theme
+
+        yield return new WaitForSeconds(1f);
+
         if (correctMatches == HorseManager.horseList.Count)
         {
-            endingTxt.text = correctMatches + "/7 movies matched correctly.\nCongratulations! You matched all the movies correctly!\nAll customers loved your attitude and recommendations. You get a promotion!";
+            endingTxt.text = correctMatches + "/7 movies matched correctly.\n\nCongratulations! You matched all the movies correctly!\n\nAll customers loved your attitude and recommendations. You get a promotion!";
         }
         else if (correctMatches > 3)
         {
-            endingTxt.text = correctMatches + "/7 movies matched correctly.\nGood job!\nCustomers generally like you. You'll come in to work tomorrow just like any day.";
+            endingTxt.text = correctMatches + "/7 movies matched correctly.\n\nGood job!\n\nCustomers generally like you. You'll come in to work tomorrow just like any day.";
         }
         else
         {
-            endingTxt.text = correctMatches + "/7 movies matched correctly.\nGame Over!\nYou got a bunch of complaints from customers, saying you didn't pay attention to anything they said. You get fired!";
+            endingTxt.text = correctMatches + "/7 movies matched correctly.\n\nBetter luck next time!\n\nYou got a bunch of complaints from customers, saying you didn't pay attention to anything they said. You get fired!";
         }
         endPanel.SetActive(true);
     }

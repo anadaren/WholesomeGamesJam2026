@@ -70,8 +70,11 @@ public class HorseManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         menuAnimations.HorseFadeOut(); // Old horse fades out
-        yield return new WaitForSeconds(2f);
 
+        yield return new WaitForSeconds(1f);
+        AudioManager.Instance.PlaySFX(1); // Plays door beep
+
+        yield return new WaitForSeconds(1f);
         currentHorse = horseList[currentHorseIndex];
         AudioManager.Instance.SwitchMusic(currentHorse.index); // Switches music to horses theme
         currentHorseImage.sprite = horseImages[currentHorse.index]; // Updates horse sprite
